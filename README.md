@@ -12,7 +12,7 @@ Ashley Vanaman
 - https://www.kenney.nl/assets/abstract-platformer
 
 ## Reflection
-This iteration shown to be one of my better ones. I have more of a solid layout of what I am doing for this project. There is so much information packed into this that I tend to forget the easy things like how to add the button pressed code. I just get too focused on what I'm doing. I think I have a good start going. 
+This iteration shown to be one of my better ones. I have more of a solid layout of what I am doing for this project. There is so much information packed into this that I tend to forget the easy things like how to add the button pressed code. I just get too focused on what I'm doing. I think I have a good start going. My main issue is that GoDot refuses to run for too long before shutting down. On top of that, it is not always taking my saves. My grade is based on what my last knwon save did. The few things I have yet to do is figure out how to have the camera to follow the player and then I have yet to put in an object for the player to interct with as of this last save.
 
 ## Self Evaluation
 
