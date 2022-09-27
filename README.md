@@ -15,3 +15,5 @@ Ashley Vanaman
 This iteration shown to be one of my better ones. I have more of a solid layout of what I am doing for this project. There is so much information packed into this that I tend to forget the easy things like how to add the button pressed code. I just get too focused on what I'm doing. I think I have a good start going. 
 
 ## Self Evalusation
+
+[criteria (3).md](https://github.com/bsu-cs315/P2-avanaman/files/9658124/criteria.3.md)
