@@ -36,4 +36,4 @@ This iteration shown to be one of my better ones. I have more of a solid layout 
 - [ ] ⭐ Include parallax scrolling in the background.
 - [ ] ⭐ Include tiles that can be passed in one direction, such as being able to jump up through a tile and land atop it.
 
-- Thsi project emits a B
+- This project emits a B
