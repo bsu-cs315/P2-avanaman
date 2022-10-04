@@ -4,15 +4,15 @@ const _GRAVITY := 100
 const _SPEED := 100
 const _JUMP := 200
 
+
 var _velocity := Vector2.ZERO
+var _score := 0
 
-onready var animation := get_node('Green')
-# Declare member variables here. Examples:
-# var a = 2
-# var b = "text"
+func _ready():
+	$Camera2D/Return.visible = false
 
+onready var _sprite := get_node('Green')
 
-# Called when the node enters the scene tree for the first time.
 func _physics_process(delta:float)->void:
 	_velocity.y = 0.0 if is_on_floor() else _velocity.y + _GRAVITY * delta
 	var input := Vector2.ZERO
@@ -24,9 +24,11 @@ func _physics_process(delta:float)->void:
 	_velocity.x = input.x * _SPEED
 	
 	move_and_slide(_velocity, Vector2.UP)
-	# Replace with function body.
-
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-#func _process(delta):
-#	pass
+	
+	_sprite.scale.x = -1 if input.x < 0 else 1
+	_sprite.playing = input.x !=0
+	
+	if (_score == 100):
+		$Camera2D/Return.visible = true
+		
+	
