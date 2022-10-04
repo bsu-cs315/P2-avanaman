@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/playerGreen_walk4.png-45e74bd16558c323b6de5c8808a6d79c.stex"
+path="res://.import/blueJewel.png-90b598f8a7bd9ec62a4082b0cbb53b19.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Player/playerGreen_walk4.png"
-dest_files=[ "res://.import/playerGreen_walk4.png-45e74bd16558c323b6de5c8808a6d79c.stex" ]
+source_file="res://Item/blueJewel.png"
+dest_files=[ "res://.import/blueJewel.png-90b598f8a7bd9ec62a4082b0cbb53b19.stex" ]
 
 [params]
 

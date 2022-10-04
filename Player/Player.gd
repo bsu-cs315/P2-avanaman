@@ -14,19 +14,15 @@ func _ready():
 onready var _sprite := get_node('Green')
 
 func _physics_process(delta:float)->void:
-	_velocity.y = 0.0 if is_on_floor() else _velocity.y + _GRAVITY * delta
-	var input := Vector2.ZERO
-	input.x = Input.get_axis("move_left", "move_right")
-	
-	if Input.is_action_just_pressed("jump") and is_on_floor():
-		_velocity.y = - _JUMP
-		
-	_velocity.x = input.x * _SPEED
+	var _velocity = Vector2.ZERO
+	if Input.is_action_pressed("move_right"):
+		_velocity.x += 1
+	if Input.is_action_pressed("move_left"):
+		_velocity.x -= 1
+	if Input.is_action_pressed("jump"):
+		_velocity.y -= 1
 	
 	move_and_slide(_velocity, Vector2.UP)
-	
-	_sprite.scale.x = -1 if input.x < 0 else 1
-	_sprite.playing = input.x !=0
 	
 	if (_score == 100):
 		$Camera2D/Return.visible = true
