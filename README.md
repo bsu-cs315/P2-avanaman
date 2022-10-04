@@ -38,6 +38,6 @@ As of the ,ost recent save, the only thing that I do not have at the moment is t
 - [ ] A-3: Earn two stars.
 - [ ] ⭐ Animate the main character using either <code>AnimatedSprite</code> or cutout animation
 - [ ] ⭐ Include parallax scrolling in the background.
-- [ ] ⭐ Include tiles that can be passed in one direction, such as being able to jump up through a tile and land atop it.
+- [X] ⭐ Include tiles that can be passed in one direction, such as being able to jump up through a tile and land atop it.
 
 Project emits a B
