@@ -1,7 +1,8 @@
 extends Area2D
 
-signal score_increase(amount)
-	
-func _on_body_entered(_body):
+signal item_entered
+
+func _on_Item_entered(_body):
 	$CollisionShape2D.set_deferred('disabled', true)
-	emit_signal("score_increase", 50)
+	emit_signal("item_entered")
+	queue_free()
